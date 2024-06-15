@@ -32,3 +32,7 @@
     width: 750px;
     height: auto;
   }
+
+  # maincontent2 {
+    border: blue 5px solid;
+  }
