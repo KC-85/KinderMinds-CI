@@ -37,3 +37,10 @@
     font-size: 1.5em;
     font-weight: bold;
  }
+
+ h2, h3, h4, h5 {color: navy;
+  font-style: oblique;
+}
+
+p {font-size: medium;
+}
