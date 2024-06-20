@@ -38,9 +38,16 @@
     font-weight: bold;
  }
 
- h2, h3, h4, h5 {color: navy;
+h4 {
+  color: white;
+  font-style: oblique;
+    }
+
+h5 {
+  color: navy;
   font-style: oblique;
 }
 
-p {font-size: medium;
+p {
+  font-size: medium;
 }
