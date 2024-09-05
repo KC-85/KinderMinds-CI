@@ -1,53 +1,72 @@
+:root {
+  --primary-color: #40e0d0;
+  --secondary-color: #72720d;
+  --tertiary-color: #4169e1;
+  --success-color: #32cd32;
+  --text-color-navy: navy;
+  --text-color-black: black;
+}
+
+/* Gradient Background */
 .gradient-background {
-    background: linear-gradient(300deg, #40e0d0, #72720d, #4169e1, #32cd32);
-    background-size: 180% 180%;
-    animation: gradient-animation 30s ease infinite;
+  background: linear-gradient(300deg, var(--primary-color), var(--secondary-color), var(--tertiary-color), var(--success-color));
+  background-size: 200% 200%;
+  animation: gradient-animation 40s ease infinite;
 }
 
 @keyframes gradient-animation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0% 50%;
   }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
-  .icon-square {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 0.75rem;
-  }
-  
-  .profile-img {
-    border-radius: 75%;
-    height: 250px;
-  }
-  
-  .img {
-    display: block;
-    width: 750px;
-    height: auto;
-  }
+/* Icons */
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
 
- .h5 {
-    font-size: 1.5em;
-    font-weight: bold;
- }
+/* Profile Image */
+.profile-img {
+  border-radius: 50%;
+  height: 250px;
+}
 
+/* Header Image */
+.header-img {
+  display: block;
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+}
+
+/* Typography */
 h4 {
-  color: black;
+  color: var(--text-color-black);
   font-style: oblique;
-    }
+  font-size: 1.75rem;
+}
 
 h5 {
-  color: navy;
+  color: var(--text-color-navy);
   font-style: oblique;
+  font-size: 1.5rem;
 }
 
 p {
-  font-size: medium;
+  font-size: 1rem;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
 }
