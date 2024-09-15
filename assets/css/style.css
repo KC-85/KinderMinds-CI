@@ -1,25 +1,31 @@
 :root {
-  --primary-color: #40e0d0;
-  --secondary-color: #72720d;
-  --tertiary-color: #4169e1;
-  --success-color: #32cd32;
-  --text-color-navy: navy;
-  --text-color-black: black;
+  --primary-color: #ff7e5f;  /* Warm peach */
+  --secondary-color: #feb47b; /* Soft orange */
+  --tertiary-color: #86a8e7;  /* Light blue */
+  --success-color: #91eae4;   /* Cool cyan */
+  --text-color-navy: #2c3e50; /* Dark navy */
+  --text-color-black: #2f2f2f; /* Dark gray */
 }
 
 /* Gradient Background */
 .gradient-background {
   background: linear-gradient(300deg, var(--primary-color), var(--secondary-color), var(--tertiary-color), var(--success-color));
   background-size: 200% 200%;
-  animation: gradient-animation 40s ease infinite;
+  animation: gradient-animation 30s ease infinite;
 }
 
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
   }
+  25% {
+    background-position: 50% 50%;
+  }
   50% {
     background-position: 100% 50%;
+  }
+  75% {
+    background-position: 50% 50%;
   }
   100% {
     background-position: 0% 50%;
