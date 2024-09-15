@@ -10,14 +10,16 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <meta name="description" content="Learn about anxiety, its types, symptoms, and available treatments including medication and therapy options at Kinder Minds.">
+  <meta name="keywords" content="Anxiety, Mental Health, Therapy, Medication, Kinder Minds">
 </head>
 
 <body class="text-center">
 
   <!-- Title Section -->
-  <section id="title" class="gradient-background">
-    <div class="container col-xxl-8 px-4 pt-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+  <header id="title" class="gradient-background py-5">
+    <div class="container col-xxl-8 px-4">
+      <div class="row flex-lg-row-reverse align-items-center g-5">
         <div class="col-10 col-sm-8 col-lg-6">
           <img src="assets/images/mental-health-3285634_1280.png" class="d-block mx-lg-auto img-fluid" alt="Mental Health"
             height="200" loading="lazy">
@@ -41,26 +43,26 @@
         </div>
       </div>
     </div>
-  </section>
+  </header>
 
   <!-- Anxiety Information Section -->
-  <section id="anxiety-info">
+  <section id="anxiety-info" aria-labelledby="anxiety-info-title">
     <div class="container">
-      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+      <article class="card mb-4 rounded-3 shadow-sm border-dark">
         <div class="card-header py-3 text-bg-primary border-dark">
-          <h2 class="fw-bold text-center">Understanding Anxiety</h2>
+          <h2 id="anxiety-info-title" class="fw-bold text-center">Understanding Anxiety</h2>
           <p class="text-center">Anxiety can be experienced in many different ways. If your experiences meet certain criteria, your doctor might diagnose you with a specific anxiety disorder.</p>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <!-- Anxiety Disorders Section -->
-  <section id="anxiety-disorders">
+  <section id="anxiety-disorders" aria-labelledby="anxiety-disorders-title">
     <div class="container">
-      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+      <article class="card mb-4 rounded-3 shadow-sm border-dark">
         <div class="card-header py-3 text-bg-light border-dark">
-          <h2 class="fw-bold">Commonly Diagnosed Anxiety Disorders</h2>
+          <h2 id="anxiety-disorders-title" class="fw-bold">Commonly Diagnosed Anxiety Disorders</h2>
         </div>
         <div class="card-body">
           <h3 class="fw-bold">Social Anxiety Disorder</h3>
@@ -72,16 +74,16 @@
           <h3 class="fw-bold">Post-Traumatic Stress Disorder (PTSD)</h3>
           <p>PTSD can cause various symptoms, such as hypervigilance, irrational fear, panic attacks, flashbacks, and more.</p>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <!-- Anxiety Support Section -->
-  <section id="anxiety-support">
+  <section id="anxiety-support" aria-labelledby="anxiety-support-title">
     <div class="container">
-      <div class="card mb-4 rounded-3 shadow-sm border-dark">
+      <article class="card mb-4 rounded-3 shadow-sm border-dark">
         <div class="card-header py-3 text-bg-secondary border-dark">
-          <h3 class="fw-bold">Anxiety Support and Treatments</h3>
+          <h3 id="anxiety-support-title" class="fw-bold">Anxiety Support and Treatments</h3>
         </div>
         <div class="card-body">
           <h4 class="fw-bold">Medication</h4>
@@ -97,14 +99,15 @@
           <h5 id="Other-Available-Treatments" class="fw-bold">Other Available Treatments</h5>
           <p>There are various talking therapies, including Cognitive Behavioral Therapy (CBT), hypnotherapy, and meditation, that can help manage anxiety.</p>
         </div>
-      </div>
+      </article>
     </div>
   </section>
 
   <!-- Image Gallery Section -->
-  <section id="anxiety-gallery" class="py-3">
+  <section id="anxiety-gallery" class="py-3" aria-labelledby="gallery-title">
     <div class="container">
       <div class="row">
+        <h2 id="gallery-title" class="visually-hidden">Image Gallery</h2>
         <div class="col-lg-3 col-sm-12">
           <img class="img-fluid rounded" src="assets/images/FTC-mental-health-2019924_1920.jpg" alt="FTC Mental Health">
         </div>
@@ -124,9 +127,9 @@
   </section>
 
   <!-- Footer Section -->
-  <section id="contact" class="gradient-background py-5">
+  <footer id="contact" class="gradient-background py-5">
     <div class="container">
-      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+      <div class="row py-5 border-top">
         <div class="col mb-3">
           <p class="text-white">©Kinder Minds 2024</p>
         </div>
@@ -134,14 +137,13 @@
           <h5 class="text-white">Page Links</h5>
           <ul class="nav flex-column">
             <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#Medication" class="nav-link p-0 text-body-secondary">Medication</a></li>
+            <li class="nav-item mb-2"><a href="#anxiety-support" class="nav-link p-0 text-body-secondary">Medication</a></li>
             <li class="nav-item mb-2"><a href="#Other-Available-Treatments" class="nav-link p-0 text-body-secondary">Other Available Treatments</a></li>
           </ul>
         </nav>
-      </footer>
+      </div>
     </div>
-  </section>
+  </footer>
 
 </body>
-
 </html>
