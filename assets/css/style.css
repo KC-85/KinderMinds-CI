@@ -75,4 +75,25 @@ button {
   padding: 10px 20px;
   font-size: 1rem;
   border-radius: 4px;
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+  color: #000;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .container {
+    padding: 10px;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
 }
