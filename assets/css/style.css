@@ -8,13 +8,14 @@
   --text-color-black: #2f2f2f; /* Dark gray */
   --light-text: #f8f9fa; /* Light gray for contrast */
   --hover-color: #fc9b82; /* Slightly deeper peach */
-  --background-color: #f5f7fa; /* 🌿 Soft pastel background */
+  --background-color: #f8d7da; /* 🌸 Soft Pastel Light Pink */
 }
 
 /* 🌟 Page Background */
 body {
-  background-color: var(--background-color);
+  background-color: var(--background-color) !important; 
   color: var(--text-color-black);
+  background-image: none !important; /* Ensures no background images override */
 }
 
 /* 🌟 Gradient Background Animation */
