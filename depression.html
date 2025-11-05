@@ -1,26 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Depression | Kinder Minds</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kinder Minds – Depression</title>
+
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+
+  <!-- Meta -->
+  <meta name="description" content="Understanding depression: signs, self-care ideas, and routes to support." />
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <!-- Skip to main content -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Navbar (Option A: always burger, right-aligned) -->
+  <nav class="navbar navbar-dark bg-dark sticky-top" aria-label="Primary">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">Kinder Minds</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+
+      <button class="navbar-toggler ms-auto" type="button"
+              data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+
+      <div class="collapse navbar-collapse mt-2" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="anxiety.html">Anxiety</a></li>
-          <li class="nav-item"><a class="nav-link" href="depression.html">Depression</a></li>
+          <li class="nav-item"><a class="nav-link" href="depression.html" aria-current="page">Depression</a></li>
           <li class="nav-item"><a class="nav-link" href="dvmentalhealth.html">DV Mental Health</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -28,40 +43,111 @@
     </div>
   </nav>
 
-  <!-- Depression Information -->
-  <section class="container py-5">
-    <h2 class="text-center fw-bold">Understanding Depression</h2>
-    <p class="lead text-center">Depression is a serious mental health disorder that affects mood, energy, and daily life.</p>
-
-    <div class="row g-4 py-5 row-cols-1 row-cols-md-2">
-      <div class="col">
-        <h3 class="fw-bold">Common Types of Depression</h3>
-        <ul>
-          <li><strong>Major Depressive Disorder:</strong> Persistent sadness, loss of interest, and fatigue.</li>
-          <li><strong>Persistent Depressive Disorder (Dysthymia):</strong> Chronic depression lasting two years or more.</li>
-          <li><strong>Seasonal Affective Disorder (SAD):</strong> Depression triggered by seasonal changes.</li>
-        </ul>
+  <main id="main">
+    <!-- Hero -->
+    <header class="gradient-background py-5 text-center">
+      <div class="container">
+        <h1 class="display-5 fw-bold">Understanding Depression</h1>
+        <p class="lead">Recognising symptoms and finding supportive steps forward.</p>
+        <!-- Replace image & alt as needed -->
+        <img src="assets/images/depression-hero.jpg"
+             class="img-fluid mt-3"
+             alt="Warm sunrise scene symbolising hope and recovery" />
       </div>
-      <div class="col">
-        <img src="assets/images/depression-awareness.jpg" class="img-fluid rounded" alt="Depression Awareness">
-      </div>
-    </div>
+    </header>
 
-    <h3 class="fw-bold">Treatments for Depression</h3>
-    <p>Effective treatments include:</p>
-    <ul>
-      <li><strong>Cognitive Behavioral Therapy (CBT):</strong> Helps challenge negative thinking.</li>
-      <li><strong>Medication:</strong> SSRIs and SNRIs can help manage symptoms.</li>
-      <li><strong>Lifestyle Changes:</strong> Exercise, healthy diet, and social support.</li>
-    </ul>
-  </section>
+    <!-- What is depression -->
+    <section class="container py-5">
+      <h2 class="fw-bold text-center mb-4">What Is Depression?</h2>
+      <p class="mx-auto" style="max-width: 900px;">
+        Depression is a common mental health condition that affects mood, thoughts and daily life.
+        It’s more than feeling sad for a few days. With the right support and self-care, many people
+        find effective ways to recover and manage symptoms.
+      </p>
+    </section>
+
+    <!-- Signs & symptoms -->
+    <section class="container py-5">
+      <h2 class="fw-bold text-center mb-4">Common Signs & Symptoms</h2>
+      <div class="row g-4 row-cols-1 row-cols-md-2">
+        <div class="col">
+          <ul>
+            <li>Persistent low mood or loss of interest</li>
+            <li>Changes to sleep or appetite</li>
+            <li>Low energy or motivation</li>
+          </ul>
+        </div>
+        <div class="col">
+          <ul>
+            <li>Feelings of guilt, worthlessness or hopelessness</li>
+            <li>Difficulty concentrating or making decisions</li>
+            <li>Withdrawing from friends and activities</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Self-care ideas -->
+    <section class="container py-5">
+      <h2 class="fw-bold text-center mb-4">Self-Care Ideas</h2>
+      <div class="row g-4 row-cols-1 row-cols-lg-3">
+        <article class="col d-flex align-items-start">
+          <div class="icon-square text-primary bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-activity" viewBox="0 0 16 16" focusable="false" aria-hidden="true">
+              <path d="M6 2l1.5 4h2L12 2l2 12H2z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-4">Small, Regular Actions</h3>
+            <p>Short walks, gentle stretching and simple routines can help rebuild energy and structure.</p>
+          </div>
+        </article>
+
+        <article class="col d-flex align-items-start">
+          <div class="icon-square text-primary bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-journal-check" viewBox="0 0 16 16" focusable="false" aria-hidden="true">
+              <path d="M3 0h10v1H3zM2 2h12v12H2zM5 4h6v1H5zM5 6h6v1H5zM5 8h4v1H5z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-4">Track & Reflect</h3>
+            <p>Jotting down mood, sleep and small wins can make patterns visible and encourage progress.</p>
+          </div>
+        </article>
+
+        <article class="col d-flex align-items-start">
+          <div class="icon-square text-primary bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3" aria-hidden="true">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16" focusable="false" aria-hidden="true">
+              <path d="M5.5 7a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zM11 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM0 14s1-1 4-1 4 1 4 1-1 1-4 1-4-1-4-1zm9-1s1-1 3-1 3 1 3 1-1 1-3 1-3-1-3-1z"/>
+            </svg>
+          </div>
+          <div>
+            <h3 class="fs-4">Stay Connected</h3>
+            <p>Talking with someone you trust or joining a support group can reduce isolation and offer perspective.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Get support (optional helpful section) -->
+    <section class="container py-5">
+      <h2 class="fw-bold text-center mb-4">Get Support</h2>
+      <p class="mx-auto" style="max-width: 900px;">
+        If low mood persists or worsens, consider professional help. Your GP can discuss options such as talking therapies.
+        If you’re in immediate crisis or thinking of harming yourself, seek urgent help via local emergency services.
+      </p>
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer id="contact" class="gradient-background py-5 text-center text-white">
-    <p>© Kinder Minds 2024</p>
-    <p>Contact: <a href="mailto:kc.kinderminds@yahoo.com" class="text-white">kc.kinderminds@yahoo.com</a></p>
+  <footer id="contact" class="gradient-background py-5">
+    <div class="container text-white text-center">
+      <p>© 2024–2025 Kinder Minds</p>
+      <p>Contact: <a href="mailto:kc.kinderminds@yahoo.com" class="text-white">kc.kinderminds@yahoo.com</a></p>
+    </div>
   </footer>
 
+  <!-- JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
