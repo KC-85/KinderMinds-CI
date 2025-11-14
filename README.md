@@ -56,27 +56,37 @@ source: [KinderMinds-CI amiresponsive](https://ui.dev/amiresponsive?url=https://
 #### 1. Strategy
 
 **Purpose**
-- Encourage users to join the running club by showcasing its mission, community spirit, and benefits.
-- Provide a seamless user experience to keep users informed and engaged.
+- Provide a calm, easy-to-understand resource for users seeking introductory information on Anxiety, Depression, and DV & Mental Health.
+- Reduce overwhelm by presenting short, simple, human-friendly explanations.
 
 **Primary User Needs**
-- Learn about the club’s purpose and events.
-- Join the club and stay updated.
-- Access responsive, user-friendly content.
+- Understand mental health topics in clear, plain language.
+- Navigate between topics easily with accessible navigation.
+- Access resources and signposting in a supportive, non-clinical environment.
+- Read comfortably on mobile devices.
 
 **Business Goals**
-- Increase club membership.
-- Boost participation in events and social media engagement.
+- Deliver a safe, approachable mental health information site.
+- Build an accessible, responsive front-end project demonstrating UX, semantic HTML, and modern CSS skills.
+- Provide users with reassurance, understanding, and practical next steps.
 
 #### 2. Scope
 
 **[Features](#features)** (see below)
 
 **Content Requirements**
-- Clear, motivational text about the club’s mission.
-- Photos showcasing the community.
-- Event schedules and descriptions.
-- Forms for membership sign-up.
+
+- Clear top navigation (accessible burger menu on all screens).
+- Pages for Anxiety, Depression, and DV Mental Health.
+- Calm gradient header sections and consistent layout.
+- Accessible images with meaningful alt text.
+- Skip link, focus visibility, ARIA attributes, and semantic structure.
+- Fully responsive design using Bootstrap and custom CSS.
+- Custom 404 page for lost users.
+- Short, supportive explanations of each mental health topic.
+- Lists of symptoms and self-care ideas.
+- UK support lines for DV Mental Health.
+- Simple footer with contact info.
 
 #### 3. Structure
 
