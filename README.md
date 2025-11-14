@@ -193,7 +193,7 @@ In this section, list all of your possible user stories for the project. Samples
 | As a user | I want the navigation to be intuitive and accessible | so I can easily move between topics on any device. |
 | As a user | I want the site to feel calm and visually gentle | so I can read sensitive content comfortably. |
 | As an user | I want images to have clear alt text | so I understand the context even when using assistive technology. |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
+| As a user | I want practical, supportive self-care ideas | so I know what small steps I can take. |
 | As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
 
