@@ -59,7 +59,13 @@ source: [KinderMinds-CI amiresponsive](https://ui.dev/amiresponsive?url=https://
 - Provide a calm, easy-to-understand resource for users seeking introductory information on Anxiety, Depression, and DV & Mental Health.
 - Reduce overwhelm by presenting short, simple, human-friendly explanations.
 
-**Primary User Needs**
+**Primary User Needs**Short, supportive explanations of each mental health topic.
+
+Lists of symptoms and self-care ideas.
+
+UK support lines for DV Mental Health.
+
+Simple footer with contact info.
 - Understand mental health topics in clear, plain language.
 - Navigate between topics easily with accessible navigation.
 - Access resources and signposting in a supportive, non-clinical environment.
@@ -92,17 +98,21 @@ source: [KinderMinds-CI amiresponsive](https://ui.dev/amiresponsive?url=https://
 
 **Information Architecture**
 - **Navigation Menu**:
-  - Accessible links in the navbar.
+  - Home
+  - Anxiety
+  - Depression
+  - DV Mental Health
+  - Contact (footer)
 - **Hierarchy**:
-  - Clear call-to-action buttons.
-  - Prominent placement of social media links in the footer.
+  - Hero section → topic overview → symptoms → self-care → resources
+  - Content is kept short and scannable.
 
 **User Flow**
-1. User lands on the home page → learns about the club’s mission.
-2. Navigates to the schedule/timetable → sees sessions they can join.
-3. Views the events → checks upcoming/past event details.
-4. Signs up via the membership page.
-5. Browses the gallery → explores the community spirit.
+1. User arrives on the homepage and learns what KinderMinds is about.
+2. User selects a topic from the consistent burger-menu navigation.
+3. User reads clear information sections with supportive language.
+4. User can scroll to footer to find contact information.
+5. If a user reaches a broken link, they are guided by a custom 404 page.
 
 #### 4. Skeleton
 
