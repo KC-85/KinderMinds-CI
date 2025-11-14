@@ -9,7 +9,13 @@ Developer: Kristian Cross ([KC-85](https://www.github.com/KC-85))
 
 ⚠️ PROJECT INTRODUCTION AND RATIONALE⚠️
 
-In this section, include a few paragraphs providing an overview of your project. Essentially, this part is your "sales pitch". Describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience. Also, assessors lately have been asking that students explain "why" they opted to do a project about this particular topic/subject, so be sure to explain what made you choose this particular theme/concept/subject/idea. This is the project "rationale".
+KinderMinds is a simple, supportive, and accessible website designed to raise awareness about mental health topics including Anxiety, Depression, and the impact of Domestic Violence on wellbeing. The goal is to provide clear information, reassurance, and introductory guidance in a calm and approachable environment.
+
+This project was created to address a common issue: many mental health resources online can feel overwhelming, overly clinical, or difficult for new users to navigate. KinderMinds focuses on clarity, readability, and emotional safety by presenting information in a friendly and supportive tone.
+
+I chose this topic because mental health is something that affects nearly everyone—directly or indirectly. Creating a project centred around wellbeing felt meaningful and useful, and allowed me to practise building accessible, user-focused pages with clear navigation, contrast, alt text, and fully responsive layouts. It also gave me the opportunity to integrate knowledge about UX, accessibility standards, and modern front-end design.
+
+KinderMinds is aimed at individuals seeking a gentle introduction to mental health topics, signposting, and reassurance. It is also suitable for anyone who prefers a calm, distraction-free resource when learning about emotional wellbeing.
 
 ⚠️ --- END --- ⚠️
 
