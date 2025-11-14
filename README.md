@@ -134,12 +134,17 @@ When you add a color to the palette, the URL is dynamically updated, making it e
 
 ⚠️ --- END --- ⚠️
 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
+I used [coolors.co](https://coolors.co/ff7e5f-feb47b-86a8e7-91eae4-2c3e50-2f2f2f-f8f9fa-fc9b82-f8d7da) to generate my color palette.
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
+- `#ff7e5f`
+- `#feb47b`
+- `#86a8e7`
+- `#91eae4`
+- `#2c3e50`
+- `#2f2f2f`
+- `#f8f9fa`
+- `#fc9b82`
+- `#f8d7da`
 
 ![screenshot](documentation/coolors.png)
 
@@ -184,12 +189,11 @@ In this section, list all of your possible user stories for the project. Samples
 
 | Target | Expectation | Outcome |
 | --- | --- | --- |
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. |
-| As an user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. |
+| As a user | I want clear, simple explanations of mental health topics | so I can understand Anxiety, Depression, and DV-related issues without feeling overwhelmed. |
+| As a user | I want the navigation to be intuitive and accessible | so I can easily move between topics on any device. |
+| As a user | I want the site to feel calm and visually gentle | so I can read sensitive content comfortably. |
+| As an user | I want images to have clear alt text | so I understand the context even when using assistive technology. |
 | As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. |
 | As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
 
