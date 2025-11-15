@@ -202,14 +202,11 @@ In this section, you should go over the different parts of your project, and des
 | --- | --- | --- |
 | Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar.png) |
 | Hero Page | The hero page begins with a colourful, calming gradient header, a large title, supportive subtitle, and a relevant image with meaningful alt text. This sets the tone and supports emotional comfort. | ![screenshot](documentation/features/hero.png) |
-| Anxiety | The Anxiety section will allow the user to see the benefits of joining the *Love Running* meetups, as well as the benefits of running overall. The user will see the value of signing up for the *Love Running* meetups. This should encourage the user to consider running as their form of exercise. | ![screenshot](documentation/features/anxiety.png) |
-| Depression | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/depression.png) |
-| DV Mental Health | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/dvmentalhealth.png) |
-| Footer | The footer includes links to the relevant social media sites for *Love Running*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Gallery | The gallery will provide the user with supporting images to see what the meet-ups look like. This section is valuable to the user, as they will be able to easily identify the types of events that the organization puts together. It's responsive so no images stretch or skew, showing images stacked by 1 on mobile, by 2 on smaller tablets, by 3 on desktop, and by 4 on larger screens. | ![screenshot](documentation/features/gallery.png) |
-| Signup | This page will allow the user to sign up to *Love Running* and start their running journey with the community. The user will be able specify if they would like to take part in road, trail, or both types of running. The user will be asked to submit their full name and email address. | ![screenshot](documentation/features/singup.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the *Love Running* club. Due to the lack of a database or email system so far, this is a fake confirmation page, and will automatically redirect the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| Anxiety | Offers a gentle explanation of anxiety, signs and symptoms, and supportive self-care suggestions. Includes structured bullet lists and icons for readability. | ![screenshot](documentation/features/anxiety.png) |
+| Depression | Explains what depression is, lists common symptoms, and suggests simple self-care ideas. Content is designed to reduce overwhelm and reassure the reader. | ![screenshot](documentation/features/depression.png) |
+| DV Mental Health | Covers how domestic violence affects mental health. Includes safety tips, self-care ideas, and UK helpline signposting. Uses careful wording to avoid triggering content. | ![screenshot](documentation/features/dvmentalhealth.png) |
+| Footer | Appears on all pages with copyright text and a contact email. Styled using the same gradient colours as the hero to maintain visual consistency. | ![screenshot](documentation/features/footer.png) |
+| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *KinderMinds-CI* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
 
 ### Future Features
 
@@ -221,22 +218,23 @@ A few examples are listed below to align with possible ways to improve on the sa
 
 ⚠️ --- END ---⚠️
 
-- **Personalized User Profiles**: Allow users to create accounts where they can track their running progress, view personal stats, and share their achievements.
-- **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
-- **Event Registration & Payment**: Integrate an option for runners to register and pay for upcoming events or races directly through the site.
-- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for reaching milestones (e.g., number of runs, personal bests, attending events).
-- **Interactive Maps**: Display interactive running route maps, complete with distance markers, elevation data, and difficulty ratings.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support friends running in real-time.
-- **Runner's Blog**: Include a blog section for members to share their running experiences, tips, and stories, fostering community engagement.
-- **Leaderboards**: Add a feature where users can compare their running stats with others in the club via leaderboards (e.g., most kilometers run, fastest times).
-- **Weekly Challenges**: Implement weekly running challenges or group challenges to keep users motivated and engaged.
-- **Weather Integration**: Show local weather conditions for Dublin and suggest the best times for a run, based on user preferences.
-- **Social Sharing**: Enable users to share their runs, achievements, or event participation directly on social media from the site.
-- **Club Merchandise Store**: Introduce an online store where users can purchase branded running gear like shirts, jackets, or water bottles.
-- **Push Notifications**: Allow users to opt-in for mobile push notifications for schedule updates, new events, or motivational reminders.
-- **Virtual Runs**: Create a platform for virtual runs where members can participate remotely and still receive medals or rewards.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for runners to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can run to raise money or awareness for specific causes.
+**Simple Mental Health Glossary:**
+A non-clinical glossary explaining key emotional wellbeing terms in plain language.
+
+**Resources Directory:**
+A curated list of reputable UK mental health organisations and helplines.
+
+**Local Area Signposting:**
+Customisable resource lists based on user location.
+
+**Accessibility Themes:**
+Options for dyslexia-friendly fonts, dark mode, or reduced-motion mode.
+
+**Downloadable Self-Care Sheets:**
+Printable grounding exercises, breathing guides, and support contacts.
+
+**Search Function:**
+Simple keyword search to help users find specific topics quickly.
 
 ## Tools & Technologies
 
@@ -395,21 +393,6 @@ Looking for some media files? Here are some popular sites to use. The list of ex
     - [Lorem Picsum](https://picsum.photos) (placeholder images)
     - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
     - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-    - [Button Clicks](https://www.zapsplat.com/sound-effect-category/button-clicks)
-    - [Lasers & Weapons](https://www.zapsplat.com/sound-effect-category/lasers-and-weapons/page/5)
-    - [Puzzle Music](https://soundimage.org/puzzle-music)
-    - [Camtasia Audio](https://library.techsmith.com/camtasia/assets/Audio)
-- Video
-    - [Videvo](https://www.videvo.net)
-- Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
-
-A few examples have been provided below to give you some ideas on how to do your own Media credits.
-
-⚠️ --- END ---⚠️
 
 | Source | Notes |
 | --- | --- |
@@ -425,12 +408,6 @@ A few examples have been provided below to give you some ideas on how to do your
 | [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
 
 ### Acknowledgements
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution and acknowledgement to any supports that helped, encouraged, or supported you throughout the development stages of this project. It's always lovely to appreciate those that help us grow and improve our developer skills. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
