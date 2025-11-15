@@ -17,17 +17,6 @@ I chose this topic because mental health is something that affects nearly everyo
 
 KinderMinds is aimed at individuals seeking a gentle introduction to mental health topics, signposting, and reassurance. It is also suitable for anyone who prefers a calm, distraction-free resource when learning about emotional wellbeing.
 
-⚠️ --- END --- ⚠️
-
-🛑 README NOTES 🛑
-
-Do not add a **Table of Contents** to your Markdown files. GitHub has these built-in automatically using the headers/hashtags.
-
-Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
-
-Learn about Markdown Alerts (aka Callouts), a fairly new feature for GitHub Markdown files.
-https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#alerts
-Note: these are not visible within your README Previewer, and are only visible once you push the code to GitHub.
 
 **Site Mockups**
 *([amiresponsive](https://ui.dev/amiresponsive?url=https://kc-85.github.io/KinderMinds-CI), [techsini](https://techsini.com/multi-mockup), etc.)*
