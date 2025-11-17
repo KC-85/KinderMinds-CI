@@ -67,7 +67,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| assets | [style.css](https://github.com/KC-85/KinderMinds-CI/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://kc-85.github.io/KinderMinds-CI) | ![screenshot](documentation/validation/css-assets-style.png) | ⚠️ Notes (if applicable) |
+| assets | [style.css](https://github.com/KC-85/KinderMinds-CI/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://kc-85.github.io/KinderMinds-CI) | ![screenshot](documentation/validation/css-assets-style.png) | There are some errors and warnings, however, these are related to Bootstrap & not the plain CSS within style.css. |
 
 
 ## Responsiveness
@@ -147,9 +147,9 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop |
 | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
-| Gallery | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
+| Anxiety | ![screenshot](documentation/lighthouse/mobile-anxiety.png) | ![screenshot](documentation/lighthouse/desktop-anxiety.png) |
+| Depression | ![screenshot](documentation/lighthouse/mobile-depression.png) | ![screenshot](documentation/lighthouse/desktop-depression.png) |
+| DV Mental Health | ![screenshot](documentation/lighthouse/mobile-dvmentalhealth.png) | ![screenshot](documentation/lighthouse/desktop-dvmentalhealth.png) |
 | 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
 
 ## Defensive Programming
