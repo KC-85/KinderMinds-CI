@@ -125,9 +125,9 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Page | Chrome | Firefox | Safari | Notes |
 | --- | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Gallery | ![screenshot](documentation/browsers/chrome-gallery.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Signup | ![screenshot](documentation/browsers/chrome-signup.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/browsers/chrome-confirmation.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
+| Anxiety | ![screenshot](documentation/browsers/chrome-anxiety.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
+| Depression | ![screenshot](documentation/browsers/chrome-depression.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
+| DV Mental Health | ![screenshot](documentation/browsers/chrome-dvmentalhealth.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
 | 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
 
 ## Lighthouse Audit
