@@ -169,14 +169,12 @@ Most of your project's **Features** should already align with the **User Stories
 
 | Target | Expectation | Outcome | Screenshot | 
 | --- | --- | --- | --- | 
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature08.png) |
+| As a user | I want links to clear, simple explanations of mental health topics | so I can understand Anxiety, Depression, and DV-related issues without feeling overwhelmed. | ![screenshot](documentation/features/navbar.png) |
+| As a user | I want the navigation to be intuitive and accessible | so I can easily move between topics on any device. | ![screenshot](documentation/features/depression.png) |
+| As a user | I want the site to feel calm and visually gentle | so I can read sensitive content comfortably. | ![screenshot](documentation/features/hero.png) |
+| As a user | I want practical, supportive self-care ideas | so I know what small steps I can take. | ![screenshot](documentation/features/self-care.png) |
+| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/navbar.png) |
+| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/404.png) |
 
 ## Bugs
 
