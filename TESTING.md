@@ -56,11 +56,27 @@ I've tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Anxiety | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Depression | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| DV Mental Health | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
+
+| Directory | File | URL | Screenshot | Notes |
+| --- | --- | --- | --- | --- |
+| assets | [style.css](https://github.com/KC-85/KinderMinds-CI/blob/main/assets/css/style.css) | [CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https://kc-85.github.io/KinderMinds-CI) | ![screenshot](documentation/validation/css-assets-style.png) | There are some errors and warnings, however, these are related to Bootstrap & not the plain CSS within style.css. |
+
+
+## Responsiveness
+
+⚠️ INSTRUCTIONS ⚠️
+
+Use this space to discuss testing the live/deployed site on various device sizes.
+
+The minimum requirement is to test the following 3 sizes:
+
+
+| Home | ![screenshot](documentation/responsiveness/mobile/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop/desktop-home.png) | Works as expected |
+| Anxiety | ![screenshot](documentation/responsiveness/mobile/mobile-anxiety.png) | ![screenshot](documentation/responsiveness/tablet/tablet-anxiety.png) | ![screenshot](documentation/responsiveness/desktop/desktop-anxiety.png) | Works as expected |
+| Depression | ![screenshot](documentation/responsiveness/mobile/mobile-depression.png) | ![screenshot](documentation/responsiveness/tablet/tablet-depression.png) | ![screenshot](documentation/responsiveness/desktop/desktop-depression.png) | Works as expected |
+| DV Mental Health | ![screenshot](documentation/responsiveness/mobile/mobile-dvmentalhealth.png) | ![screenshot](documentation/responsiveness/tablet/tablet-dvmentalhealth.png) | ![screenshot](documentation/responsiveness/desktop/desktop-dvmentalhealth.png) | Works as expected |
+| 404 | ![screenshot](documentation/responsiveness/mobile/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop/desktop-404.png-404.png) | Works as expected |
 
 ## Browser Compatibility
 
