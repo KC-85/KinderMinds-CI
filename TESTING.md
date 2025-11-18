@@ -71,7 +71,8 @@ Use this space to discuss testing the live/deployed site on various device sizes
 
 The minimum requirement is to test the following 3 sizes:
 
-
+| Page | Mobile | Tablet | Desktop | Notes |
+| --- | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/responsiveness/mobile/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop/desktop-home.png) | Works as expected |
 | Anxiety | ![screenshot](documentation/responsiveness/mobile/mobile-anxiety.png) | ![screenshot](documentation/responsiveness/tablet/tablet-anxiety.png) | ![screenshot](documentation/responsiveness/desktop/desktop-anxiety.png) | Works as expected |
 | Depression | ![screenshot](documentation/responsiveness/mobile/mobile-depression.png) | ![screenshot](documentation/responsiveness/tablet/tablet-depression.png) | ![screenshot](documentation/responsiveness/desktop/desktop-depression.png) | Works as expected |
@@ -79,24 +80,6 @@ The minimum requirement is to test the following 3 sizes:
 | 404 | ![screenshot](documentation/responsiveness/mobile/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop/desktop-404.png-404.png) | Works as expected |
 
 ## Browser Compatibility
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers. Consider testing at least 3 different browsers, if available on your system. You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the browsers you've tested, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time. Some of these are paid services, but some are free. If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -109,16 +92,6 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | 404 | ![screenshot](documentation/browsers/chrome/404.png) | ![screenshot](documentation/browsers/firefox/404.png) | ![screenshot](documentation/browsers/brave/404.png) | Works as expected |
 
 ## Lighthouse Audit
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site's Lighthouse Audit reports. Avoid testing the local version (Gitpod/VSCode/etc.), as this can have knock-on effects for performance. If you don't have "Lighthouse" in your Developer Tools, it can be added as an [extension](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk).
-
-Unless your project is a single-page application (SPA), you should test Lighthouse Audit results for all of your pages, for both *mobile* and *desktop*.
-
-**IMPORTANT**: You must provide screenshots of the results, to "prove" that you've actually tested them.
-
-⚠️ --- END --- ⚠️
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues. Some warnings are outside of my control, and mobile results tend to be lower than desktop.
 
@@ -207,20 +180,6 @@ Most of your project's **Features** should already align with the **User Stories
 
 ## Bugs
 
-⚠️ INSTRUCTIONS ⚠️
-
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
-
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/KC-85/KinderMinds-CI/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
-
 ### Fixed Bugs
 
 [![GitHub issue custom search](https://img.shields.io/github/issues-search/KC-85/KinderMinds-CI?query=is%3Aissue%20is%3Aclosed%20label%3Abug&label=Fixed%20Bugs&color=green)](https://www.github.com/KC-85/KinderMinds-CI/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
@@ -232,14 +191,6 @@ All previously closed/fixed bugs can be tracked [here](https://www.github.com/KC
 ![screenshot](documentation/bugs/gh-issues-closed.png)
 
 ### Unfixed Bugs
-
-⚠️ INSTRUCTIONS ⚠️
-
-You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-⚠️ --- END --- ⚠️
 
 [![GitHub issue custom search](https://img.shields.io/github/issues-search/KC-85/KinderMinds-CI?query=is%3Aissue%2Bis%3Aopen%2Blabel%3Abug&label=Unfixed%20Bugs&color=red)](https://www.github.com/KC-85/KinderMinds-CI/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
 
