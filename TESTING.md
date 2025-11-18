@@ -125,10 +125,10 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Page | Chrome | Firefox | Brave | Notes |
 | --- | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/browsers/chrome/home.png) | ![screenshot](documentation/browsers/firefox/home.png) | ![screenshot](documentation/browsers/brave/home.png) | Works as expected |
-| Anxiety | ![screenshot](documentation/browsers/chrome/anxiety.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/brave/anxiety.png) | Works as expected |
-| Depression | ![screenshot](documentation/browsers/chrome/depression.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/brave/depression.png) | Works as expected |
-| DV Mental Health | ![screenshot](documentation/browsers/chrome/dvmentalhealth.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/brave/dvmentalhealth.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome/404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/brave/404.png) | Works as expected |
+| Anxiety | ![screenshot](documentation/browsers/chrome/anxiety.png) | ![screenshot](documentation/browsers/firefox/anxiety.png) | ![screenshot](documentation/browsers/brave/anxiety.png) | Works as expected |
+| Depression | ![screenshot](documentation/browsers/chrome/depression.png) | ![screenshot](documentation/browsers/firefox/depression.png) | ![screenshot](documentation/browsers/brave/depression.png) | Works as expected |
+| DV Mental Health | ![screenshot](documentation/browsers/chrome/dvmentalhealth.png) | ![screenshot](documentation/browsers/firefox/dvmentalhealth.png) | ![screenshot](documentation/browsers/brave/dvmentalhealth.png) | Works as expected |
+| 404 | ![screenshot](documentation/browsers/chrome/404.png) | ![screenshot](documentation/browsers/firefox/404.png) | ![screenshot](documentation/browsers/brave/404.png) | Works as expected |
 
 ## Lighthouse Audit
 
