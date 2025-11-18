@@ -122,13 +122,13 @@ Please note, there are services out there that can test multiple browser compati
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Page | Chrome | Firefox | Safari | Notes |
+| Page | Chrome | Firefox | Brave | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/browsers/chrome-home.png) | ![screenshot](documentation/browsers/firefox-home.png) | ![screenshot](documentation/browsers/safari-home.png) | Works as expected |
-| Anxiety | ![screenshot](documentation/browsers/chrome-anxiety.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
-| Depression | ![screenshot](documentation/browsers/chrome-depression.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
-| DV Mental Health | ![screenshot](documentation/browsers/chrome-dvmentalhealth.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/browsers/chrome-404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| Home | ![screenshot](documentation/browsers/chrome/home.png) | ![screenshot](documentation/browsers/firefox/home.png) | ![screenshot](documentation/browsers/brave/home.png) | Works as expected |
+| Anxiety | ![screenshot](documentation/browsers/chrome/anxiety.png) | ![screenshot](documentation/browsers/firefox-gallery.png) | ![screenshot](documentation/browsers/brave/anxiety.png) | Works as expected |
+| Depression | ![screenshot](documentation/browsers/chrome/depression.png) | ![screenshot](documentation/browsers/firefox-signup.png) | ![screenshot](documentation/browsers/brave/depression.png) | Works as expected |
+| DV Mental Health | ![screenshot](documentation/browsers/chrome/dvmentalhealth.png) | ![screenshot](documentation/browsers/firefox-confirmation.png) | ![screenshot](documentation/browsers/brave/dvmentalhealth.png) | Works as expected |
+| 404 | ![screenshot](documentation/browsers/chrome/404.png) | ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/brave/404.png) | Works as expected |
 
 ## Lighthouse Audit
 
