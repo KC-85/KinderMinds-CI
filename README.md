@@ -115,7 +115,7 @@ I used [coolors.co](https://coolors.co/ff7e5f-feb47b-86a8e7-91eae4-2c3e50-2f2f2f
 - `#fc9b82`
 - `#f8d7da`
 
-![screenshot](documentation/coolors.png)
+![screenshot](documentation/coolors/coolors.png)
 
 ### Typography
 
