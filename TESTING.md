@@ -3,12 +3,6 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-⚠️ INSTRUCTIONS ⚠️
-
-In the following sections, you need to convince the assessors that you have conducted enough manual testing to legitimately believe that the site works well. Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-⚠️ --- END --- ⚠️
-
 ## Code Validation
 
 ### HTML
@@ -17,10 +11,10 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-|  | [anxiety.html](https://github.com/KC-85/KinderMinds-CI/blob/main/anxiety.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/anxiety.html) | ![screenshot](documentation/validation/html--anxiety.png) | ⚠️ Notes (if applicable) |
-|  | [depression.html](https://github.com/KC-85/KinderMinds-CI/blob/main/depression.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/depression.html) | ![screenshot](documentation/validation/html--depression.png) | ⚠️ Notes (if applicable) |
-|  | [dvmentalhealth.html](https://github.com/KC-85/KinderMinds-CI/blob/main/dvmentalhealth.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/dvmentalhealth.html) | ![screenshot](documentation/validation/html--dvmentalhealth.png) | ⚠️ Notes (if applicable) |
-|  | [index.html](https://github.com/KC-85/KinderMinds-CI/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/index.html) | ![screenshot](documentation/validation/html--index.png) | ⚠️ Notes (if applicable) |
+| Anxiety | [anxiety.html](https://github.com/KC-85/KinderMinds-CI/blob/main/anxiety.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/anxiety.html) | ![screenshot](documentation/validation/html--anxiety.png) | ⚠️ Notes (if applicable) |
+| Depression | [depression.html](https://github.com/KC-85/KinderMinds-CI/blob/main/depression.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/depression.html) | ![screenshot](documentation/validation/html--depression.png) | ⚠️ Notes (if applicable) |
+| DV Mental Health | [dvmentalhealth.html](https://github.com/KC-85/KinderMinds-CI/blob/main/dvmentalhealth.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/dvmentalhealth.html) | ![screenshot](documentation/validation/html--dvmentalhealth.png) | ⚠️ Notes (if applicable) |
+| Home | [index.html](https://github.com/KC-85/KinderMinds-CI/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/index.html) | ![screenshot](documentation/validation/html--index.png) | ⚠️ Notes (if applicable) |
 
 
 ### CSS
