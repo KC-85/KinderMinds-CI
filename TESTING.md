@@ -11,10 +11,10 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Directory | File | URL | Screenshot | Notes |
 | --- | --- | --- | --- | --- |
-| Anxiety | [anxiety.html](https://github.com/KC-85/KinderMinds-CI/blob/main/anxiety.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/anxiety.html) | ![screenshot](documentation/validation/html--anxiety.png) | ⚠️ Notes (if applicable) |
-| Depression | [depression.html](https://github.com/KC-85/KinderMinds-CI/blob/main/depression.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/depression.html) | ![screenshot](documentation/validation/html--depression.png) | ⚠️ Notes (if applicable) |
-| DV Mental Health | [dvmentalhealth.html](https://github.com/KC-85/KinderMinds-CI/blob/main/dvmentalhealth.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/dvmentalhealth.html) | ![screenshot](documentation/validation/html--dvmentalhealth.png) | ⚠️ Notes (if applicable) |
-| Home | [index.html](https://github.com/KC-85/KinderMinds-CI/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/index.html) | ![screenshot](documentation/validation/html--index.png) | ⚠️ Notes (if applicable) |
+| Anxiety | [anxiety.html](https://github.com/KC-85/KinderMinds-CI/blob/main/anxiety.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/anxiety.html) | ![screenshot](documentation/validation/html--anxiety.png) |  |
+| Depression | [depression.html](https://github.com/KC-85/KinderMinds-CI/blob/main/depression.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/depression.html) | ![screenshot](documentation/validation/html--depression.png) |  |
+| DV Mental Health | [dvmentalhealth.html](https://github.com/KC-85/KinderMinds-CI/blob/main/dvmentalhealth.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/dvmentalhealth.html) | ![screenshot](documentation/validation/html--dvmentalhealth.png) |  |
+| Home | [index.html](https://github.com/KC-85/KinderMinds-CI/blob/main/index.html) | [HTML Validator](https://validator.w3.org/nu/?doc=https://kc-85.github.io/KinderMinds-CI/index.html) | ![screenshot](documentation/validation/html--index.png) |  |
 
 
 ### CSS
@@ -40,12 +40,6 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 
 ## Responsiveness
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss testing the live/deployed site on various device sizes.
-
-The minimum requirement is to test the following 3 sizes:
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
@@ -81,14 +75,6 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | Target | Expectation | Outcome | Screenshot | 
 | --- | --- | --- | --- | 
 | As a user | I want links to clear, simple explanations of mental health topics | so I can understand Anxiety, Depression, and DV-related issues without feeling overwhelmed. | ![screenshot](documentation/features/navbar.png) |
@@ -97,8 +83,6 @@ Most of your project's **Features** should already align with the **User Stories
 | As a user | I want practical, supportive self-care ideas | so I know what small steps I can take. | ![screenshot](documentation/features/self-care.png) |
 | As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/navbar.png) |
 | As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/404.png) |
-
-## Bugs
 
 ### Known Issues
 
