@@ -130,7 +130,7 @@ I've used freehand to design my site wireframes.
 
 | Mobile | Tablet | Desktop | Note |
 | --- | --- | --- | --- |
-| ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) | Each page of Kinder Minds is identical in layout to the Home page |
+| ![screenshot](documentation/wireframes/mobile-home.jpeg) | ![screenshot](documentation/wireframes/tablet-home.jpeg) | ![screenshot](documentation/wireframes/desktop-home.jpeg) | Each page of Kinder Minds is identical in layout to the Home page |
 
 ## User Stories
 
